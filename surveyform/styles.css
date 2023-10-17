@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#surveyForm{
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#surveyForm label{
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+}
+#surveyForm input, #surveyForm select{
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+#gender-label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#gender-label label{
+    margin-right: 20px;
+}
+#surveyForm button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+#surveyForm button:hover{
+    background-color: #45a049;
+}
+#popup{
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
